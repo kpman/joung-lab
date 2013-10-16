@@ -1,0 +1,171 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+	box-shadow: 0px 0px 15px black;
+	position: relative;
+}
+.box-model {
+	width: 900px;
+	/*height: 80px;*/
+	border: 20px solid LimeGreen;
+	background: LightYellow;
+	padding: 30px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+.center {
+	margin: 0 auto;
+	
+}
+
+.static {
+	position: static;
+}
+.relative {
+	position: relative;
+	background: Tomato;
+	height: 50px;
+	width: 250px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	/*top: 150px;
+	left: 50px;*/
+}
+.absolute {
+	position: absolute;
+
+
+	width: 250px;
+	height: 200px;
+	text-align: center;
+	line-height: 250px;
+	background: HotPink;
+	color: white;
+	font-size: 25px;
+	top: 120px;
+
+}
+.fixed {
+	position: fixed;
+
+
+	bottom: 50px;
+	left: 50px;
+}
+.parent {
+	position: relative;
+
+
+	background: #ddd;
+	min-height: 200px;
+	width: 800px;
+}
+.grandfather {
+	background: MediumPurple;
+	padding: 20px;
+	width: 960px;
+	box-sizing: border-box;
+}
+/*.position {
+	position: relative;
+	background: SkyBlue;
+}*/
+
+.student-card {
+	margin: 0 auto;
+	position: relative;
+	width: 450px;
+	height: 280px;
+	background-color: #DABC52;
+	padding: 20px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	clear: both;
+}
+.student-card .ntu-logo {
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.student-card h1 {
+	height: 60px;
+	margin: 0px;
+	letter-spacing: 3px;
+	color: #531B11;
+}
+.student-card h1 span {
+	font-size: 20px;
+	margin-left: 10px;
+}
+.student-card .en {
+	font-size: 16px;
+	letter-spacing: -0.6px;
+	margin-top: 5px;
+}
+.student-card ul {
+	line-height: 1.5em;
+	list-style: none;
+	margin-left: -1em;
+	float: left;
+
+}
+.student-card ul li:first-child {
+	margin-bottom: 1em;
+}
+.student-card ul li {
+	font-family: 標楷體;
+}
+.student-card .joung{
+	float: right;
+	width: 30%;
+	margin: 1em;
+}
+.student-card .barcode {
+	width: 230px;
+	height: 30px;
+	margin-left: 1em;
+}
+
+.student-card .sun-glasses {
+	width: 40px;
+	position: absolute;
+	top: 141px;
+	right: 73px;
+}
+
+.left {
+	float: left;
+	width: 600px;
+	height: 300px;
+	background: ForestGreen;
+	color: white;
+	text-align: center;
+	line-height: 300px;
+	font-size: 30px;
+}
+.right {
+	float: right;
+	width: 500px;
+	height: 400px;
+	background: url(bg.jpg);
+}
+.float {
+	overflow: auto;
+}
+
+
+
+
+
+/* style the page*/
+.fixed img {
+	width: 50px;
+	height: 50px;
+}
+footer {
+	text-align: center;
+}
